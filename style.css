@@ -66,6 +66,14 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    opacity: 0.65;
+    transition: 1s ease;
+}
+
+img:hover {
+    opacity: 1;
+    transition: 1s ease;
 }
 
 .card_content {
